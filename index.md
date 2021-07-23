@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# 张亦逊的个人博客
 
-You can use the [editor on GitHub](https://github.com/zhangyixun3811/zhangyixun3811.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+## Django项目指导
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Django是一个基于Python的Web框架，这意味着您需要安装Python。安装过程略。
 
-### Markdown
+然后，使用如下命令安装Django：
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```shell
+pip install Django
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+这会自动安装Django的最新版本。截止2021年7月，Django的最新版本为3.2.5。我们也以Django3.2.5为例进行说明。
 
-### Jekyll Themes
+如果您想安装特定版本，需要运行：
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zhangyixun3811/zhangyixun3811.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```shell
+pip install Django==a.b.c #a.b.c意味版本号，如3.2.5
+```
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
